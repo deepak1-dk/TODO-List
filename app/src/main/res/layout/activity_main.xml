@@ -30,5 +30,8 @@
         android:layout_alignParentEnd="true"
         android:layout_margin="32dp"
         android:backgroundTint="#FFC107"
+        android:background="@drawable/fab_background"
+        android:src="@drawable/add_icon"/>
+
 
 </RelativeLayout>
