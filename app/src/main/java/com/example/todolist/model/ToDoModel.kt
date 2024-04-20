@@ -1,7 +1,3 @@
 package com.example.todolist.model
 
-data class ToDoModel(
-     val id : Int,
-     val status : Int,
-     val task : String
-)
+data class ToDoModel(var task: String = "", var status: Int = 0, var id: Int = 0)
